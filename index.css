@@ -1,0 +1,17 @@
+:root {
+    --body-background-color: #36A0A3;
+    --header-background-color: #4E5D63;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--body-background-color);
+}
+
+header {
+    background-color: var(--header-background-color);
+}
+
