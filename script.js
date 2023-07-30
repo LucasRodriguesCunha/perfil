@@ -5,7 +5,7 @@ const botaoSubir = document.querySelector("#climb-to-the-top");
 window.addEventListener("scroll", function() {
     const scrollTop = document.documentElement.scrollTop;
     
-    if (scrollTop > 2000)
+    if (scrollTop > 500)
         botaoSubir.style.display = "block";
     else {
         botaoSubir.style.display = "none";
