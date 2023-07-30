@@ -1,3 +1,5 @@
+// Climb-to-the-top - Subir ao topo - botão
+
 const botaoSubir = document.querySelector("#climb-to-the-top");
 
 window.addEventListener("scroll", function() {
