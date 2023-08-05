@@ -159,6 +159,7 @@ section {
 
 #presentation {
     font-size: 3.5rem;
+    max-width: 500px;
 }
 
 #description {
