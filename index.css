@@ -177,6 +177,7 @@ section {
 .img-profile {
     border-radius: 50%;
     width: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .second-section,
