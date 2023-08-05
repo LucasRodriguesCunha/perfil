@@ -52,14 +52,13 @@ nav {
 }
 
 .nav-links {
+    font-weight: 500;
     text-decoration: none;
     color: var(--white);
 }
 
 .nav-links:hover {
-    color: var(--dark4);
-    transition: 0.4s;
-    text-decoration: underline;
+    text-decoration: underline #000;
 }
 
 .box-btn-actions {
@@ -74,12 +73,6 @@ button,
     border-radius: 8px;
     cursor: pointer;
     transition: 0.4s;
-}
-
-button:hover,
-a:hover {
-    color: #000;
-    font-weight: 600;
 }
 
 .link-action {
@@ -144,7 +137,7 @@ main {
 }
 
 section {
-    padding: 6.5rem;
+    padding: 3rem;
 }
 
 .first-section {
@@ -172,6 +165,7 @@ section {
     color: var(--white);
     line-height: 1.5;
     font-weight: 500;
+    max-width: 350px;
 }
 
 .box-img-main {
