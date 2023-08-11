@@ -190,7 +190,7 @@ section {
     gap: 2rem;
 }
 
-.second-section ul {   
+.second-section ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -220,19 +220,19 @@ section {
     gap: 2rem;
 }
 
-.third-section > div {
+.third-section>div {
     display: flex;
     gap: 4rem;
     justify-content: center;
     align-items: center;
 }
 
-.third-section > div img {
+.third-section>div img {
     width: 250px;
     border-radius: 8px;
 }
 
-.third-section > div p {
+.third-section>div p {
     max-width: 600px;
     color: var(--white);
     text-align: justify;
@@ -245,8 +245,27 @@ footer {
     gap: 2rem;
 }
 
-footer > div {
+footer>div {
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+
+#my-projects-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-projects-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#my-projects-list a:hover {
+    text-decoration: underline #000;
+    cursor: pointer;
 }
